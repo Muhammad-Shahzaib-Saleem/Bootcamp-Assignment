@@ -8,12 +8,11 @@ on:
   
   runs-on: ubuntu-latest
 
-        
-     steps:
-       
-         - uses: actions/checkout@v2
-         - name: Installing Node
-           run: actions/setup-node@v2-beta
+steps:
+    
+      - uses: actions/checkout@v2
+      - name: Installing Node
+        run: actions/setup-node@v2-beta
            with:
            node version: 12
         
