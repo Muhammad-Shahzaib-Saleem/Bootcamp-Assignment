@@ -34,5 +34,5 @@ jobs:
       
      
     - name: Deploying surge
-      run: surge ./  surge_deploy.surge.sh ${{ secrets.SURGE_TOKEN }}
+      run: surge ./  surge_deploy.surge.sh --token ${{ secrets.SURGE_TOKEN }}
         
